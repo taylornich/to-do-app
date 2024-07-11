@@ -1,9 +1,7 @@
-# mini project 1 task 2
+# mini project 1 task 1
 class ToDo:
     def __init__(self):
         self.list = []
-
-        # mini project task 1
     
         print('''Welcome to the To-Do List App!
                     
@@ -13,7 +11,7 @@ class ToDo:
         3. Mark a task as complete
         4. Delete a task
         5. Quit''')
-
+#mini project 1 task 2
     def add_task(self, title="incomplete"):
         self.list.append({"title": title, "complete": False})
 
@@ -47,11 +45,10 @@ class ToDo:
 def main():
     todo_list = ToDo()
 
-    # mini project task 1
     while True:
         #mini project task 4
         try:
-        # mini project task 2
+        # mini project task 3
             menu_choice = input("Please enter your choice:")
 
             if menu_choice == "1": 
